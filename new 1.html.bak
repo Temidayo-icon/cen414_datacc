@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Somuyiwa Temidayo Samuel 18CJ024164 DATA VISUALIZATION ASSIGNMENT</title>
+
+    <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='css/main.css') }}">
+	<style>
+	img {
+	width: 50rem;
+	}
+	</style>
+  </head>
+  <body>
+      <h1 align="center">Number of Fixed Telephone Subscription</h1>
+
+    <div class="cell">
+        <p class="main-text">
+           This Bar plots below show the Number of Fixed Telephone Subscription In Africa from the
+           year 2009-2020
+        </p>
+		
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2009.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2010.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2011.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2012.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2013.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output1.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2015.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2016.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2017.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2018.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2019.png') }}" width="70%">
+<br/><br/>
+        <img src="{{ url_for('static', filename='output2020.png') }}" width="70%">
+<br/><br/>
+
+
+
+
+
+      </div>
+
+
+      <div  class="cell">
+        <p class="main-text">
+            The line graphs show below the different number of subcsriptions for the observation values in the line graphs above the first plot being the Mean,followed by the Median,Standard Deviation,Variance,Range and Interquatile range.
+        </p>
+<br/><br/>
+	   <img src='static/output2.png' >
+ <br/><br/> 
+	  <img src='static/output3.png' >
+<br/><br/>
+	  <img src='static/output4.png' >
+<br/><br/>
+	  <img src='static/output5.png' >
+<br/><br/>
+	  <img src='static/output6.png' >
+<br/><br/>
+	   <img src='static/output7.png' style='width="2rem";'>
+<br/><br/>
+      </div>
+      
+
+  </body>
+</html>
